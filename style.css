@@ -34,9 +34,18 @@ h1{
 margin-bottom: 1%;
 }
 h3{
-  font-size: 1.5em
+  font-size: 2em
 }
 .col-sx-4{
   padding: 5%
 }
+}
+
+@media all and (min-width: 769px) and (max-width: 1200px) {
+
+hr{
+  display: none;
+}
+.card{
+  padding: 5%
 }
